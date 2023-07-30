@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29F36B83CBB1CBDB1CA87C3E /* Pods_BasketballScore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F29DB232523E5A37A5EB3069 /* Pods_BasketballScore.framework */; };
+		643F81962A7602820064EF07 /* BSHomeGameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643F81952A7602820064EF07 /* BSHomeGameCell.swift */; };
+		643F81982A7611B50064EF07 /* BSBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643F81972A7611B50064EF07 /* BSBaseModel.swift */; };
+		643F819A2A76124E0064EF07 /* BSGameRecordsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643F81992A76124E0064EF07 /* BSGameRecordsManager.swift */; };
+		643F819C2A7612A80064EF07 /* BSGameRecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643F819B2A7612A80064EF07 /* BSGameRecordModel.swift */; };
+		643F819E2A76298B0064EF07 /* BSStartRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643F819D2A76298B0064EF07 /* BSStartRecordViewController.swift */; };
+		643F81A02A762BD60064EF07 /* BSTeamScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643F819F2A762BD60064EF07 /* BSTeamScoreView.swift */; };
+		64D471F42A7529D200831E5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D471F32A7529D200831E5F /* AppDelegate.swift */; };
+		64D471F62A7529D200831E5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D471F52A7529D200831E5F /* SceneDelegate.swift */; };
+		64D471FB2A7529D200831E5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D471F92A7529D200831E5F /* Main.storyboard */; };
+		64D471FD2A7529D300831E5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D471FC2A7529D300831E5F /* Assets.xcassets */; };
+		64D472002A7529D300831E5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D471FE2A7529D300831E5F /* LaunchScreen.storyboard */; };
+		64D472132A75319B00831E5F /* BSHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D472122A75319B00831E5F /* BSHomeViewController.swift */; };
+		64D472172A75331100831E5F /* BSBaseNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D472162A75331100831E5F /* BSBaseNavigationView.swift */; };
+		64D472192A753B7900831E5F /* BSCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D472182A753B7900831E5F /* BSCommon.swift */; };
+		64D4721B2A75411000831E5F /* BSToolsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D4721A2A75411000831E5F /* BSToolsManager.swift */; };
+		64D4721D2A754E5300831E5F /* BSTeamInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D4721C2A754E5300831E5F /* BSTeamInfoViewController.swift */; };
+		64D4721F2A75524400831E5F /* BSTeamInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D4721E2A75524400831E5F /* BSTeamInfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		643F81952A7602820064EF07 /* BSHomeGameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSHomeGameCell.swift; sourceTree = "<group>"; };
+		643F81972A7611B50064EF07 /* BSBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSBaseModel.swift; sourceTree = "<group>"; };
+		643F81992A76124E0064EF07 /* BSGameRecordsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSGameRecordsManager.swift; sourceTree = "<group>"; };
+		643F819B2A7612A80064EF07 /* BSGameRecordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSGameRecordModel.swift; sourceTree = "<group>"; };
+		643F819D2A76298B0064EF07 /* BSStartRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSStartRecordViewController.swift; sourceTree = "<group>"; };
+		643F819F2A762BD60064EF07 /* BSTeamScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTeamScoreView.swift; sourceTree = "<group>"; };
+		64D471F02A7529D200831E5F /* BasketballScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasketballScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D471F32A7529D200831E5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64D471F52A7529D200831E5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		64D471FA2A7529D200831E5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64D471FC2A7529D300831E5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64D471FF2A7529D300831E5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64D472012A7529D300831E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D472122A75319B00831E5F /* BSHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSHomeViewController.swift; sourceTree = "<group>"; };
+		64D472162A75331100831E5F /* BSBaseNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSBaseNavigationView.swift; sourceTree = "<group>"; };
+		64D472182A753B7900831E5F /* BSCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSCommon.swift; sourceTree = "<group>"; };
+		64D4721A2A75411000831E5F /* BSToolsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSToolsManager.swift; sourceTree = "<group>"; };
+		64D4721C2A754E5300831E5F /* BSTeamInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTeamInfoViewController.swift; sourceTree = "<group>"; };
+		64D4721E2A75524400831E5F /* BSTeamInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTeamInfoView.swift; sourceTree = "<group>"; };
+		B490D044671651F1A885723D /* Pods-BasketballScore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasketballScore.release.xcconfig"; path = "Target Support Files/Pods-BasketballScore/Pods-BasketballScore.release.xcconfig"; sourceTree = "<group>"; };
+		C72C1170AFB459DAD134451A /* Pods-BasketballScore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasketballScore.debug.xcconfig"; path = "Target Support Files/Pods-BasketballScore/Pods-BasketballScore.debug.xcconfig"; sourceTree = "<group>"; };
+		F29DB232523E5A37A5EB3069 /* Pods_BasketballScore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasketballScore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64D471ED2A7529D200831E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F36B83CBB1CBDB1CA87C3E /* Pods_BasketballScore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		643F81932A7601880064EF07 /* BSHomeView */ = {
+			isa = PBXGroup;
+			children = (
+				64D4721E2A75524400831E5F /* BSTeamInfoView.swift */,
+				643F81952A7602820064EF07 /* BSHomeGameCell.swift */,
+				643F819F2A762BD60064EF07 /* BSTeamScoreView.swift */,
+			);
+			path = BSHomeView;
+			sourceTree = "<group>";
+		};
+		643F81942A7601A60064EF07 /* BSHomeController */ = {
+			isa = PBXGroup;
+			children = (
+				64D472122A75319B00831E5F /* BSHomeViewController.swift */,
+				64D4721C2A754E5300831E5F /* BSTeamInfoViewController.swift */,
+				643F819D2A76298B0064EF07 /* BSStartRecordViewController.swift */,
+			);
+			path = BSHomeController;
+			sourceTree = "<group>";
+		};
+		64D471E72A7529D200831E5F = {
+			isa = PBXGroup;
+			children = (
+				64D471F22A7529D200831E5F /* BasketballScore */,
+				64D471F12A7529D200831E5F /* Products */,
+				C6CB58EBB99A8308C6009F59 /* Pods */,
+				6ECCD03029FE088DE07AF041 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		64D471F12A7529D200831E5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64D471F02A7529D200831E5F /* BasketballScore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64D471F22A7529D200831E5F /* BasketballScore */ = {
+			isa = PBXGroup;
+			children = (
+				64D4720A2A752F4200831E5F /* BSBase */,
+				64D472092A752F3900831E5F /* BSHome */,
+				64D472072A752A2000831E5F /* SupporttingFiles */,
+			);
+			path = BasketballScore;
+			sourceTree = "<group>";
+		};
+		64D472072A752A2000831E5F /* SupporttingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				64D471F32A7529D200831E5F /* AppDelegate.swift */,
+				64D471F52A7529D200831E5F /* SceneDelegate.swift */,
+				64D472182A753B7900831E5F /* BSCommon.swift */,
+				64D4721A2A75411000831E5F /* BSToolsManager.swift */,
+				643F81992A76124E0064EF07 /* BSGameRecordsManager.swift */,
+				64D471F92A7529D200831E5F /* Main.storyboard */,
+				64D471FC2A7529D300831E5F /* Assets.xcassets */,
+				64D471FE2A7529D300831E5F /* LaunchScreen.storyboard */,
+				64D472012A7529D300831E5F /* Info.plist */,
+			);
+			path = SupporttingFiles;
+			sourceTree = "<group>";
+		};
+		64D472092A752F3900831E5F /* BSHome */ = {
+			isa = PBXGroup;
+			children = (
+				643F81942A7601A60064EF07 /* BSHomeController */,
+				643F81932A7601880064EF07 /* BSHomeView */,
+				643F819B2A7612A80064EF07 /* BSGameRecordModel.swift */,
+			);
+			path = BSHome;
+			sourceTree = "<group>";
+		};
+		64D4720A2A752F4200831E5F /* BSBase */ = {
+			isa = PBXGroup;
+			children = (
+				64D472162A75331100831E5F /* BSBaseNavigationView.swift */,
+				643F81972A7611B50064EF07 /* BSBaseModel.swift */,
+			);
+			path = BSBase;
+			sourceTree = "<group>";
+		};
+		6ECCD03029FE088DE07AF041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F29DB232523E5A37A5EB3069 /* Pods_BasketballScore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6CB58EBB99A8308C6009F59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C72C1170AFB459DAD134451A /* Pods-BasketballScore.debug.xcconfig */,
+				B490D044671651F1A885723D /* Pods-BasketballScore.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64D471EF2A7529D200831E5F /* BasketballScore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D472042A7529D300831E5F /* Build configuration list for PBXNativeTarget "BasketballScore" */;
+			buildPhases = (
+				909C8A9E7DECDA510EAB5D11 /* [CP] Check Pods Manifest.lock */,
+				64D471EC2A7529D200831E5F /* Sources */,
+				64D471ED2A7529D200831E5F /* Frameworks */,
+				64D471EE2A7529D200831E5F /* Resources */,
+				9E639625400228D607A6BDE5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasketballScore;
+			productName = BasketballScore;
+			productReference = 64D471F02A7529D200831E5F /* BasketballScore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64D471E82A7529D200831E5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					64D471EF2A7529D200831E5F = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 64D471EB2A7529D200831E5F /* Build configuration list for PBXProject "BasketballScore" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64D471E72A7529D200831E5F;
+			productRefGroup = 64D471F12A7529D200831E5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64D471EF2A7529D200831E5F /* BasketballScore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64D471EE2A7529D200831E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D472002A7529D300831E5F /* LaunchScreen.storyboard in Resources */,
+				64D471FD2A7529D300831E5F /* Assets.xcassets in Resources */,
+				64D471FB2A7529D200831E5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		909C8A9E7DECDA510EAB5D11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BasketballScore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E639625400228D607A6BDE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BasketballScore/Pods-BasketballScore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BasketballScore/Pods-BasketballScore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BasketballScore/Pods-BasketballScore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64D471EC2A7529D200831E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D472172A75331100831E5F /* BSBaseNavigationView.swift in Sources */,
+				64D4721D2A754E5300831E5F /* BSTeamInfoViewController.swift in Sources */,
+				64D471F42A7529D200831E5F /* AppDelegate.swift in Sources */,
+				643F81982A7611B50064EF07 /* BSBaseModel.swift in Sources */,
+				643F819A2A76124E0064EF07 /* BSGameRecordsManager.swift in Sources */,
+				643F819E2A76298B0064EF07 /* BSStartRecordViewController.swift in Sources */,
+				643F819C2A7612A80064EF07 /* BSGameRecordModel.swift in Sources */,
+				64D472132A75319B00831E5F /* BSHomeViewController.swift in Sources */,
+				643F81962A7602820064EF07 /* BSHomeGameCell.swift in Sources */,
+				64D4721F2A75524400831E5F /* BSTeamInfoView.swift in Sources */,
+				64D471F62A7529D200831E5F /* SceneDelegate.swift in Sources */,
+				643F81A02A762BD60064EF07 /* BSTeamScoreView.swift in Sources */,
+				64D4721B2A75411000831E5F /* BSToolsManager.swift in Sources */,
+				64D472192A753B7900831E5F /* BSCommon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64D471F92A7529D200831E5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D471FA2A7529D200831E5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64D471FE2A7529D300831E5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D471FF2A7529D300831E5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64D472022A7529D300831E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64D472032A7529D300831E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64D472052A7529D300831E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C72C1170AFB459DAD134451A /* Pods-BasketballScore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2S3TYJ9383;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/BasketballScore/SupporttingFiles/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmx.BasketballScore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64D472062A7529D300831E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B490D044671651F1A885723D /* Pods-BasketballScore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2S3TYJ9383;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/BasketballScore/SupporttingFiles/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmx.BasketballScore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64D471EB2A7529D200831E5F /* Build configuration list for PBXProject "BasketballScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D472022A7529D300831E5F /* Debug */,
+				64D472032A7529D300831E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D472042A7529D300831E5F /* Build configuration list for PBXNativeTarget "BasketballScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D472052A7529D300831E5F /* Debug */,
+				64D472062A7529D300831E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64D471E82A7529D200831E5F /* Project object */;
+}
